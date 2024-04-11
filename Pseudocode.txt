@@ -1,0 +1,15 @@
+Press Windows key
+Type "message.txt"
+Press "enter"
+click the right mouse button at the mid of the screen
+Click in "Select all"
+Press "ctrl" + "c"
+Press "alt" + "f4"
+Press Windows key
+Type "Firefox" or "Chrome" or any browser
+Press "enter"
+Type "web.whatsapp.com"
+Press "enter"
+Click the first chat
+Press "ctrl" + "v"
+Press "enter"
