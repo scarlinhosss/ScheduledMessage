@@ -1,0 +1,26 @@
+import pyautogui
+import time
+
+pyautogui.PAUSE = 1
+pyautogui.press('win')
+pyautogui.write("messagetext.txt")
+pyautogui.press('enter')
+pyautogui.moveTo(656, 359)
+pyautogui.click(button='right')
+pyautogui.moveTo(756, 513)
+pyautogui.click()
+pyautogui.hotkey('ctrl', 'c')
+pyautogui.hotkey('alt', 'f4')
+pyautogui.press('win')
+pyautogui.write("Firefox")
+pyautogui.press('enter')
+time.sleep(5)
+pyautogui.write("web.whatsapp.com")
+pyautogui.press('enter')
+time.sleep(8)
+pyautogui.click(324, 358)
+time.sleep(1)
+pyautogui.hotkey('ctrl', 'v')
+pyautogui.press('enter') 
+#print(pyautogui.position())
+#pyautogui.moveTo(756, 513)
