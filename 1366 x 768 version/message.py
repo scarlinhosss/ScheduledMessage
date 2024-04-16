@@ -4,6 +4,7 @@ import time
 pyautogui.PAUSE = 1
 pyautogui.press('win')
 pyautogui.write("messagetext.txt")
+time.pause(8)
 pyautogui.press('enter')
 pyautogui.moveTo(943, 333)
 pyautogui.click()
